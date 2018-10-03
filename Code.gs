@@ -16,7 +16,7 @@ function saveStarredAttachments() {
 function getAttachmentsFromStarredThreads() {
   // max 10 threads
   var blobs = [];
-  var starredThreads = GmailApp.getStarredThreads(0, 10);
+  var starredThreads = GmailApp.getStarredThreads(0, 84);
   var attachmentNumber = 0;
   
   // iterate over starred threads
